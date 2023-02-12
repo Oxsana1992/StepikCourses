@@ -135,7 +135,7 @@ margin-right: 0;
 
 .about {
     height: 1129px;
-    background: url(../img/buildings__black.png) center bottom repeat-x, url(../img/buildings__white.png) center bottom repeat-x, #1d1d1d;
+    background: url(../img/buildings__black.png) center 100% repeat-x, url(../img/buildings__white.png) center 100% repeat-x,  #1d1d1d; 
     padding-top: 128px;
     padding-bottom: 271px;
 }
@@ -172,4 +172,156 @@ margin-right: 0;
     font-weight: 300;
     letter-spacing: 0.02em;
     color: #b7b7b7;
+}
+
+/* Team */
+
+.team {
+    height: 745px;
+}
+
+.team__item {
+    text-align: center;
+}
+
+.block__head {
+    text-align: center;
+}
+
+.block__title {
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 34px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #1d1e1f;
+    margin: 0;
+    padding-top: 138px;
+    margin-bottom: 13px;
+}
+
+.block__text {
+    font-family: "Merriweather-LightItalic", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0.02em;
+    color: #898888;
+    margin: 0;
+}
+
+.team__inner {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 127px;
+}
+
+.team__icon {
+    text-align: center;
+}
+
+.team__icon-img {
+    margin-bottom: 29px;
+}
+
+.team__icon-title {
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #464646;
+    margin: 0;
+    margin-bottom: 7px;
+}
+
+.team__icon-text {
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #b3b3b3;
+    margin: 0;
+    margin-bottom: 21px;
+}
+
+.team__icon-box a {
+    font-size: 20px;
+    color: #e4e4e4;
+    transition: 0.2s;
+}
+
+.team__icon-box a:hover {
+    color: #cccccc;
+}
+
+/* Provide */
+
+.provide {
+    background-color: #181818;
+    padding-bottom: 155px;
+}
+
+.block__head {
+
+}
+
+.inverse .block__title {
+    padding-top: 176px;
+    color: #ffffff;
+}
+
+.inverse .block__text {
+    color: #777777;
+}
+
+.provide__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 138px;
+}
+
+.provide__item {
+    text-align: center;
+    max-width: 335px;
+    
+} 
+
+.provide__item i {
+    color: #ffffff;
+    font-size: 63px;
+    width: 172px;
+    height: 172px;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 43px;
+}
+
+.icon-chart-line {
+}
+
+.provide__icon-title {
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin: 0;
+    margin-bottom: 31px;
+}
+
+.provide__icon-text {
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #383838;
+    margin: 0;
+}
+
+.icon-heart-empty {
+}
+.icon-download-cloud {
 }
