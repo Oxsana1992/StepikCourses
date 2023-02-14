@@ -443,3 +443,49 @@ input[type='number'] {
     letter-spacing: 0.02em;
     color: #3b3b3b;
 }
+
+/* Media */
+
+@media screen and (max-width: 769px) {
+    .container {
+        width: 100%;
+    }
+
+    .about__inner {
+        grid-gap: 30px;
+        grid-template-columns: max-content;
+    }
+    .about {
+        height: auto;
+        padding-bottom: 200px;
+    }
+
+    .provide {
+        padding-bottom: 100px;
+    }
+
+    .team .block-title, .provide .block__title {
+        padding-top: 100px;
+    }
+    .provide__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .provide__item {
+        max-width: 300px;
+        margin: 0 30px 40px;
+    }
+
+    .contact__form {
+        padding-top: 100px;
+    }
+    .footer {
+        padding-top: 30px;
+    }
+}
+
+/* Media for screen <376px */
+
+@media screen and (max-width: 376px) {
+   
+}
